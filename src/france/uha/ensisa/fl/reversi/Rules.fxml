@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane prefHeight="600.0" prefWidth="800.0" styleClass="backgd" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="france.uha.ensisa.fl.reversi.RulesController">
+<BorderPane fx:id="rulesbp" prefHeight="600.0" prefWidth="800.0" styleClass="backgdRules" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="france.uha.ensisa.fl.reversi.RulesController">
   <bottom>
     <StackPane prefHeight="100.0" prefWidth="200.0">
       <children>

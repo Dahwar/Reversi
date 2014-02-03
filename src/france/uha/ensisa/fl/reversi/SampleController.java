@@ -92,8 +92,9 @@ public class SampleController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Rules.fxml"));
-            this.rc = fxmlLoader.getController();
             this.rules = (Parent) fxmlLoader.load();
+            this.rc = (RulesController) fxmlLoader.getController();
+            this.rc.setRoot(this.root);
         } catch (IOException ex) {
             Logger.getLogger(SampleController.class.getName()).log(Level.SEVERE, null, ex);
         }

@@ -5,6 +5,8 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
 
 /**
@@ -17,6 +19,8 @@ public class RulesController implements Initializable {
     private Text rulesText;
     @FXML
     private Text rules;
+    
+    private AnchorPane root;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -32,6 +36,10 @@ public class RulesController implements Initializable {
     
     @FXML
     private void returnToGame(ActionEvent event) {
-
+        this.root.getChildren().remove(1);
+    }
+    
+    public void setRoot(Parent root) {
+        this.root= (AnchorPane) root;
     }
 }

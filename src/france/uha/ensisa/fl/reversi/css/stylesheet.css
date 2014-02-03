@@ -1,5 +1,9 @@
 .backgd {
-    -fx-background-color: #123e12
+    -fx-background-color: #123e12;
+}
+
+.backgdRules {
+    -fx-background-color: #123e12e5;
 }
 
 .gameNameWhite, .gameRules {
