@@ -1,0 +1,104 @@
+.backgd {
+    -fx-background-color: #123e12
+}
+
+.gameNameWhite, .gameRules {
+    -fx-font-family: "Blenda Script";
+    -fx-font-size: 60;
+    -fx-fill: white;
+    -fx-effect: dropshadow(three-pass-box, #337f33, 20, 0.5, 0, 0);
+}
+
+.gameNameBlack {
+    -fx-font-family: "Blenda Script";
+    -fx-font-size: 60;
+    -fx-fill: black;
+    -fx-effect: dropshadow(three-pass-box, #337f33, 20, 0.5, 0, 0);
+}
+
+.rulesText {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 20;
+    -fx-fill: white;
+}
+
+.label {
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+}
+
+.copyright {
+    -fx-font-size: 12;
+    -fx-text-fill: white;
+}
+
+.check-box {
+    -fx-font-size: 12;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 0 0 5 0;
+}
+
+.check-box .box {
+     -fx-padding: 4;
+     -fx-background-color: transparent, transparent, transparent, #1c611c;
+}
+
+.check-box:selected .box {
+}
+
+.check-box:selected .mark {
+     -fx-background-color: white;
+}
+
+.button {
+    -fx-font-family: Arial;
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+    -fx-background-color: #1c611c;
+    -fx-label-padding: 5;
+    -fx-background-insets: 0;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-opacity: 1;
+}
+
+.button:hover {
+    -fx-effect: dropshadow(three-pass-box, white, 20, 0.2, 0, 0);
+}
+
+.button:focused {
+    -fx-background-color: transparent, #1c601c;
+}
+
+.scroll-pane {
+    -fx-background-color: #FFFFFF15;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .track-background{
+    -fx-opacity: 0;
+}
+
+.scroll-bar:vertical .track {
+    -fx-background-color: white;
+    -fx-opacity: 0.2;
+}
+
+.scroll-bar .increment-button {
+  -fx-opacity: 0;
+}
+
+.scroll-bar .decrement-button {
+  -fx-opacity: 0;
+}
+
+.scroll-bar:vertical .thumb {
+  -fx-opacity: 1;
+  -fx-background-color: #1c611c;
+}
+.scroll-bar:vertical:pressed .thumb {
+    -fx-effect: innershadow(three-pass-box, #337f33, 10, 0.2, 0, 0);
+}

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="600.0" prefWidth="800.0" style="" styleClass="backgd" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="france.uha.ensisa.fl.reversi.SampleController">
+  <children>
+    <BorderPane layoutX="0.0" layoutY="0.0" prefHeight="600.0" prefWidth="800.0" style="">
+      <center>
+        <BorderPane mouseTransparent="false" prefHeight="200.0" prefWidth="200.0" style="">
+          <center>
+            <GridPane fx:id="gameGrid" alignment="TOP_LEFT" hgap="0.0" prefHeight="600.0" prefWidth="600.0" vgap="0.0">
+              <children>
+                <Rectangle arcHeight="0.0" arcWidth="0.0" height="73.0" smooth="true" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" strokeWidth="1.0" width="73.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                  <fill>
+                    <Color blue="0.110" green="0.380" red="0.110" fx:id="x1" />
+                  </fill>
+                  <stroke>
+                    <Color blue="0.070" green="0.240" red="0.070" fx:id="x2" />
+                  </stroke>
+                </Rectangle>
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" strokeWidth="1.0" width="73.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <Rectangle arcHeight="0.0" arcWidth="0.0" fill="$x1" height="73.0" onMouseClicked="#handleBoxAction" smooth="true" stroke="$x2" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="73.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+              </children>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+              <BorderPane.margin>
+                <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+              </BorderPane.margin>
+            </GridPane>
+          </center>
+        </BorderPane>
+      </center>
+      <right>
+        <BorderPane maxHeight="-1.0" maxWidth="-Infinity" minHeight="-1.0" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" style="">
+          <bottom>
+            <StackPane id="copyright" alignment="BOTTOM_CENTER" prefHeight="70.0" prefWidth="200.0">
+              <children>
+                <Label fx:id="copyright" text="Copyright 2014 LACROIX Florent. Tous droits réservés." textAlignment="CENTER" wrapText="true" />
+              </children>
+              <padding>
+                <Insets bottom="10.0" />
+              </padding>
+            </StackPane>
+          </bottom>
+          <center>
+            <BorderPane maxHeight="-1.0" maxWidth="-Infinity" minHeight="-1.0" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0">
+              <bottom>
+                <VBox alignment="CENTER" disable="false" fillWidth="true" prefHeight="130.0" prefWidth="200.0" snapToPixel="true" spacing="10.0" BorderPane.alignment="CENTER" BorderPane.margin="$x4">
+                  <children>
+                    <CheckBox id="computer" fx:id="computerPlay" allowIndeterminate="false" indeterminate="false" mnemonicParsing="false" selected="false" text="Jouer contre l'ordinateur" />
+                    <Button contentDisplay="LEFT" mnemonicParsing="false" onAction="#handleButtonOnAction" style="" text="Nouvelle partie" textAlignment="LEFT" textFill="#292929">
+                      <VBox.margin>
+                        <Insets bottom="5.0" />
+                      </VBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#displayRules" text="Règles" />
+                  </children>
+                  <padding>
+                    <Insets fx:id="x4" />
+                  </padding>
+                </VBox>
+              </bottom>
+              <center>
+                <VBox alignment="TOP_CENTER" disable="false" fillWidth="true" focusTraversable="false" prefHeight="200.0" prefWidth="100.0" spacing="25.0" BorderPane.alignment="TOP_LEFT">
+                  <children>
+                    <Label fx:id="currentPlayer" labelFor="$currentPlayer" style="" text="" textAlignment="CENTER" wrapText="true">
+                      <font>
+                        <Font size="15.0" fx:id="x3" />
+                      </font>
+                    </Label>
+                    <Label fx:id="isPlayable" font="$x3" maxHeight="-1.0" maxWidth="-1.0" minHeight="-1.0" minWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-text-fill: white;" text="" textAlignment="CENTER" textOverrun="ELLIPSIS" underline="false" wrapText="true" />
+                    <Label fx:id="win" font="$x3" style="-fx-text-fill: white;" text="" textAlignment="CENTER" wrapText="true" />
+                  </children>
+                  <padding>
+                    <Insets top="30.0" />
+                  </padding>
+                </VBox>
+              </center>
+              <BorderPane.margin>
+                <Insets fx:id="x4" />
+              </BorderPane.margin>
+            </BorderPane>
+          </center>
+          <padding>
+            <Insets fx:id="x4" />
+          </padding>
+          <top>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0" style="">
+              <children>
+                <Text fx:id="gameName" fontSmoothingType="GRAY" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" style="" text="Reversi" textAlignment="CENTER">
+                  <font>
+                    <Font size="45.0" />
+                  </font>
+                  <StackPane.margin>
+                    <Insets right="7.0" />
+                  </StackPane.margin>
+                </Text>
+              </children>
+            </StackPane>
+          </top>
+        </BorderPane>
+      </right>
+    </BorderPane>
+  </children>
+</AnchorPane>

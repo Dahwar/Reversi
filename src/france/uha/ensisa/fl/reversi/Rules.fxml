@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" styleClass="backgd" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="france.uha.ensisa.fl.reversi.RulesController">
+  <bottom>
+    <StackPane prefHeight="100.0" prefWidth="200.0">
+      <children>
+        <Button mnemonicParsing="false" onAction="#returnToGame" text="Retour" />
+      </children>
+    </StackPane>
+  </bottom>
+  <center>
+    <ScrollPane hbarPolicy="NEVER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="325.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+      <content>
+        <BorderPane maxHeight="-1.0" maxWidth="-1.0" minHeight="-1.0" minWidth="-1.0" prefHeight="200.0" prefWidth="200.0">
+          <center>
+            <Text fx:id="rules" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rulesText" text="Text" textAlignment="CENTER" wrappingWidth="490.0">
+              <font>
+                <Font size="20.0" />
+              </font>
+            </Text>
+          </center>
+        </BorderPane>
+      </content>
+      <BorderPane.margin>
+        <Insets />
+      </BorderPane.margin>
+    </ScrollPane>
+  </center>
+  <top>
+    <StackPane prefHeight="110.0" prefWidth="200.0">
+      <children>
+        <Text id="rulesLabel" fx:id="rulesText" strokeType="OUTSIDE" strokeWidth="0.0" text="Regles du jeu">
+          <font>
+            <Font size="60.0" />
+          </font>
+        </Text>
+      </children>
+    </StackPane>
+  </top>
+</BorderPane>
