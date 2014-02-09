@@ -31,7 +31,8 @@ public class RulesController implements Initializable {
                 + "tours.\n\nLa partie se termine quand aucune des deux couleurs ne peut plus retourner de pions adverses. Le gagnant "
                 + "est la couleur dont le plus de pions apparaissent sur le plateau.\n\nEn mode un joueur, c'est-à-dire humain VS "
                 + "ordinateur, l'intelligence artificielle joue immédiatemment après vous. Si vous ne pouvez pas jouer, la machine "
-                + "rejouera jusqu'à ce que vous puissiez de nouveau jouer.\n\n Play & Enjoy :)\n");
+                + "rejouera jusqu'à ce que vous puissiez de nouveau jouer.\n\n A noter que ce jeu adopte les règles de l'Othello, mais par "
+                + "choix du programmeur, il s'intitule Reversi.\n\nPlay & Enjoy :)\n");
     }
     
     @FXML
