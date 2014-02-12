@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<game>
+	<informations>
+		<name>Reversi</name>
+		<description>Le classique jeu du Reversi ! Retournez les pions de votre adversaire en évitant qu'il ne retourne les votres. Le gagnant sera la couleur dominante en fin de partie !</description>
+		<author>Florent</author>
+		<version>1.0</version>
+		<date>11/02/2014</date>
+		<age>8+</age>
+		<category>Jeux de plateau</category>
+	</informations>
+</game>
